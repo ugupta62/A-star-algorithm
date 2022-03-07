@@ -153,8 +153,8 @@ class Map{
   // expansion from min_cost node
   vector<int> next_node(int curr_node, vector<int> traveled_path, vector<vector<int>> graph){
     vector<vector<int>> next_node_list;
-    int total_path_estimated_cost = predicted_cost(traveled_path);
     traveled_path.push_back(curr_node);
+    int total_path_estimated_cost = predicted_cost(traveled_path);
     vector<int> optimal_path_with_cost;
     optimal_path_with_cost.push_back(total_path_estimated_cost); // push new node to current path
     optimal_path_with_cost.insert(optimal_path_with_cost.end(),traveled_path.begin(), traveled_path.end()); // add cost to the new path
