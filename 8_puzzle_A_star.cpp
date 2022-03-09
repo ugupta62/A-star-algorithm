@@ -173,8 +173,8 @@ class   Puzzle{
 
 int main() {
   vector<int> dimen ={3,3};
-  vector<vector <int>> initial_state = {{5,4,0},{6,1,8},{7,3,2}};
-  // vector<vector <int>> initial_state = {{7,2,4},{5,0,6},{8,3,1}};
+  //vector<vector <int>> initial_state = {{5,4,0},{6,1,8},{7,3,2}};
+  vector<vector <int>> initial_state = {{7,2,4},{5,0,6},{8,3,1}};
   vector<vector <int>> final_state = {{1,2,3},{4,5,6},{7,8,0}};
   // heuristic_type = 1 is number of misplaced tiles
   // heuristic_type = 2 is manhattan distance of the current piece to the final place of the piece in the puzzle
