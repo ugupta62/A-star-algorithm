@@ -9,5 +9,5 @@ Two heuristics are used to solve the puzzle -
 1. Number of misplaced tiles and
 2. Manhattan distance of each block to the final place of the block in the puzzle.
 <p>
-<img src="8_puzzle_game.png" alt="experiment_schematic"/>
+<img src="8-puzzle game.png" alt="experiment_schematic"/>
 </p>
